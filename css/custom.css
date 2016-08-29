@@ -53,9 +53,14 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
     color:#EFF9A5;
 }
 
+.lh25 {
+    line-height:25px;
+}
 .slider-caption.slider-caption-center {
     max-width:100%;
 }
 .border-left-white {
     border-left:1px solid #FFF;
 }
+
+.button {}

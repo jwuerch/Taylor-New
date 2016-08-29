@@ -6610,9 +6610,10 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	#FF7A00;
 	color: #FFF;
 	font-weight: 400;
-	letter-spacing: 1px;
 	border: none;
 	background:#FF7A00;
+	padding-top:7px;
+	padding-bottom:7px
 
 }
 
