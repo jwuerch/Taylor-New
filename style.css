@@ -144,11 +144,11 @@ body {
 }
 
 a {
-	text-decoration: none !important;
+	text-decoration: none;
 	color: #1ABC9C;
 }
 
-a:hover { color: #222; }
+a:hover {}
 
 a img { border: none; }
 

@@ -67,11 +67,23 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 .lh55 {
     line-height:55px;
 }
-.slider-caption.slider-caption-center {
+#slider-max-width {
     max-width:100%;
 }
+#slider-max-width-900
 .border-left-white {
     border-left:1px solid #FFF;
 }
 
-.button {}
+#primary-menu ul li:hover > a {
+    text-decoration:underline;
+}
+#primary-menu > ul > li.current:hover > a {
+    color:#FF7A00;
+}
+#primary-menu > ul > li:nth-child(2) > a {
+    color:#00B5FF;
+}
+#primary-menu > ul > li:nth-child(3) > a {
+    color:#A7BB03;
+}
