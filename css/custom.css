@@ -16,6 +16,9 @@ h1 {
 h2 {
     font-size:64px;
 }
+h2.font-55 {
+    font-size:55px;
+}
 
 h3 {
     font-size:36px;
@@ -33,6 +36,7 @@ h6 {
 p {
 
 }
+
 h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
     font-family: "Gentium Book Basic", "Open Sans";
 }
@@ -88,4 +92,7 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 }
 #primary-menu > ul > li:nth-child(3) > a {
     color:#A7BB03;
+}
+.font-24 {
+    font-size:24px;
 }
