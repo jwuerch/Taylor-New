@@ -289,7 +289,7 @@
 	#header.sticky-style-2,
 	#header.sticky-style-3,
 	#header.sticky-style-2 #header-wrap,
-	#header.sticky-style-3 #header-wrap { height: auto !important; }
+	#header.sticky-style-3 #header-wrap { height: auto; }
 
 	#header.sticky-style-2 #header-wrap,
 	#header.sticky-style-3 #header-wrap { min-height: 60px; }
@@ -1851,4 +1851,3 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo { display: inline-block; }
 }
-

@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-size:80px;
+}
+h1.font-70 {
     font-size:70px;
 }
 
@@ -95,4 +98,29 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 }
 .font-24 {
     font-size:24px;
+}
+#extra-top-border {
+    background:#00B5FF;
+    position:absolute;
+    width:100%;
+    height:5px;
+    z-index:999;
+}
+#header.full-header {
+    border:none;
+}
+
+/** MOBILE MENU WHEN RESPONSIVE **/
+
+body:not(.top-search-open) #primary-menu-trigger {
+    color:#000;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media (max-width:991px) {
+    #header-wrap {
+        height:100px;
+    }
+
 }
