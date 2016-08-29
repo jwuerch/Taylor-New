@@ -1,0 +1,49 @@
+body {
+    font-weight:
+    color:#FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+h1., h2., h3., h4., h5., h6. {
+
+}
+h1 {
+    font-size:80px;
+    font-family:Roboto-Condensed;
+}
+
+h2 {
+    font-family:gentium book basic;
+    font-size:55px;
+}
+
+h3 {
+    font-size:36px;
+}
+h4 {
+    font-size:30px;
+}
+h5 {
+    font-size:24px;
+}
+h6 {
+    font-size:20px;
+}
+
+p {
+
+}
+
+.text-white, .slider-caption:not(.dark) h2 {
+    color:#FFF;
+}
+
+.slider-caption h2 {
+    text-transform:none;
+}
+
+.font-dark-blue {
+    color:#1344E1;
+}
