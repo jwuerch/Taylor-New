@@ -67,10 +67,12 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 .lh55 {
     line-height:55px;
 }
-#slider-max-width {
+.slider-caption.slider-caption-center {
     max-width:100%;
 }
-#slider-max-width-900
+.fa-star {
+    color:#FFD700;
+}
 .border-left-white {
     border-left:1px solid #FFF;
 }
