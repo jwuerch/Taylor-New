@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size:72px;
+    font-size:70px;
 }
 
 h2 {
@@ -55,4 +55,7 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 
 .slider-caption.slider-caption-center {
     max-width:100%;
+}
+.border-left-white {
+    border-left:1px solid #FFF;
 }

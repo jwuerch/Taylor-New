@@ -6606,9 +6606,7 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	margin: 5px;
 	padding: 0 22px;
 	font-size: 14px;
-	height: 40px;
 	line-height: 40px;
-	background-color: #1ABC9C;
 	color: #FFF;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -13524,4 +13522,3 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
-
