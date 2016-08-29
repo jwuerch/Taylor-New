@@ -1128,11 +1128,7 @@ body.stretched #header.full-header .container {
 	line-height: 22px;
 	padding: 39px 15px;
 	color: #444;
-	font-weight: bold;
-	font-size: 13px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
@@ -1155,8 +1151,6 @@ body.stretched #header.full-header .container {
 	margin: 0 0 0 5px;
 }
 
-#primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -1218,7 +1212,6 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 #primary-menu ul ul li:hover > a {
 	background-color: #F9F9F9;
 	padding-left: 18px;
-	color: #1ABC9C;
 }
 
 #primary-menu ul ul > li.sub-menu > a,
@@ -6613,8 +6606,9 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	border: none;
 	background:#FF7A00;
 	padding-top:7px;
-	padding-bottom:7px
-
+	padding-bottom:7px;
+	margin-top:0px;
+	margin-bottom:0px;
 }
 
 body:not(.device-touch) .button {

@@ -52,9 +52,20 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
     font-size:40px;
     color:#EFF9A5;
 }
-
-.lh25 {
-    line-height:25px;
+.text-orange {
+    color:#FF7A00;
+}
+.text-light-blue {
+    color:#00B5FF;
+}
+.text-light-green {
+    color:#A7BB03;
+}
+.lh15 {
+    line-height:15px;
+}
+.lh55 {
+    line-height:55px;
 }
 .slider-caption.slider-caption-center {
     max-width:100%;
