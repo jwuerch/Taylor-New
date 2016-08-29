@@ -83,6 +83,9 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 .border-left-white {
     border-left:1px solid #FFF;
 }
+.background-white {
+    background:#FFF;
+}
 
 #primary-menu ul li:hover > a {
     text-decoration:underline;
@@ -121,11 +124,11 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
     padding-left:50px;
 }
 
+
 /*** MEDIA QUERIES ***/
 
 @media (max-width:991px) {
-    #header-wrap {
-        height:100px;
-    }
+
+
 
 }

@@ -984,6 +984,7 @@ html[xmlns] .slider-wrap {display: block;}
 body.stretched #header.full-header .container {
 	width: 100%;
 	padding: 0 30px;
+	background:#FFF;
 }
 
 #header.transparent-header.full-header #header-wrap { border-bottom: 1px solid rgba(0,0,0,0.1); }
