@@ -38,8 +38,23 @@ h6 {
 h6.font-20 {
     font-size:20px;
 }
+.border-radius-8 {
+    border-radius:8px;
+}
+.border-black {
+    border:1px solid #979797;
+}
 #section-phone-slug {
     margin-top:50px;
+}
+.background-green {
+    background:#DBEC5C;
+}
+.paddingleft-30{
+    padding-left:30px;
+}
+.paddingright-30 {
+    padding-right:30px;
 }
 .border {
     border:1px solid #000;
@@ -188,6 +203,9 @@ h4.text-shadow {
 }
 .border-left-black {
     border-left:1px solid #353C3F;
+}
+.text-black {
+    color:#353C3F;
 }
 
 .background-white {
