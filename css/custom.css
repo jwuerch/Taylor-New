@@ -36,8 +36,11 @@ h6.font-20 {
     font-size:20px;
 }
 
-p {
-
+#content p {
+    color:#727779;
+    font-size:18px;
+    font-family: "Gentium Book Basic", "Open Sans";
+    line-height:1.5;
 }
 
 h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
@@ -55,7 +58,7 @@ h4.text-shadow {
     text-transform:none;
 }
 
-.font-dark-blue {
+.text-dark-blue {
     color:#1344E1;
 }
 .phone {
@@ -135,12 +138,26 @@ body.stretched #header.full-header .container {
     border-bottom:1px solid #EEE;
 }
 
+.noleftpadding {
+    padding-left:0px;
+}
 /*** MEDIA QUERIES ***/
+.picture-caption {
+    font-style:italic;
+    max-width:350px;
+    padding:10px;
+}
 
 @media (max-width:991px) {
 
     body.stretched #header.full-header .container {
         border-bottom:0px;
+    }
+    .picture-caption {
+        margin:0 auto !important;
+    }
+#section-meet-the-team > div > div.row.section-three-row-one > div.col-md-4 {
+        text-align:center;
     }
 
 
