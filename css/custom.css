@@ -42,6 +42,9 @@ h6.font-20 {
     font-family: "Gentium Book Basic", "Open Sans";
     line-height:1.5;
 }
+.text-light-black {
+    color:#727779;
+}
 
 h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
     font-family: "Gentium Book Basic", "Open Sans";
