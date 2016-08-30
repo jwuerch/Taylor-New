@@ -432,6 +432,7 @@ body.stretched #header.full-header .container {
     border-bottom:1px solid #EEE;
 }
 
+
 .noleftpadding {
     padding-left:0px;
 }
@@ -468,16 +469,23 @@ hr {
     height:14px;
     width:14px;
 }
-@media (max-width:991px) {
 
+@media (min-width:992px) {
+    #shadow-mobile {
+        box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
+    }
+}
+@media (max-width:991px) {
     body.stretched #header.full-header .container {
         border-bottom:0px;
     }
     .picture-caption {
         margin:0 auto !important;
     }
-#section-meet-the-team > div > div.row.section-three-row-one > div.col-md-4 {
+    #section-meet-the-team > div > div.row.section-three-row-one > div.col-md-4 {
         text-align:center;
     }
-
+    #header-wrap {
+        box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
+    }
 }
