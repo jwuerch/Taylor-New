@@ -29,6 +29,9 @@ h4 {
 h5 {
     font-size:30px;
 }
+h5.font-26 {
+    font-size:26px;
+}
 h6 {
     font-size:24px;
 }
@@ -36,6 +39,10 @@ h6.font-20 {
     font-size:20px;
 }
 
+.border {
+    border:1px solid #000;
+    height:200px;
+}
 #content p {
     color:#727779;
     font-size:18px;
@@ -44,6 +51,42 @@ h6.font-20 {
 }
 .text-light-black {
     color:#727779;
+}
+.inner-special {
+    padding-left:20px;
+    padding-right:20px;
+}
+.inner-special-2 {
+    padding:20px;
+}
+.special-1 {
+    color:#7ED321;
+    border-top:15px solid #7ED321;
+}
+.special-2 {
+    color:#50E3C2;
+    border-top:15px solid #50E3C2;
+}
+.special-3 {
+    color:#1344E1;
+    border-top:15px solid #1344E1;
+
+}
+.font-price {
+    font-size:86px;
+}
+.font-dollar {
+    font-size:36px;
+}
+.specials.col-md-4 {
+    padding-left:30px;
+    padding-right:30px;
+}
+.paddingtop-30 {
+    padding-top:30px;
+}
+.paddingbottom-30 {
+    padding-bottom:30px;
 }
 
 h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
@@ -86,6 +129,9 @@ h4.text-shadow {
 }
 .text-light-blue {
     color:#00B5FF;
+}
+#section-summer-specials {
+    background:#00B5FF;
 }
 .text-light-green {
     color:#A7BB03;
