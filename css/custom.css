@@ -358,6 +358,9 @@ h3.text-shadow {
 .border-left-black {
     border-left:1px solid #353C3F;
 }
+#footer {
+    border-top:5px solid #00B5FF;
+}
 .padding-left-45 {
     padding-left:45px;
 }
