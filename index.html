@@ -56,7 +56,7 @@
 											<div class="phone text-green lh55">(888) 387-1599</div>
 										</div>
 										<div class="border-left-white col-sm-6 tleft">
-											<button class="btn button"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment</button>
+											<button class="btn button" data-toggle="modal" data-target="#contact-modal"><i class="fa fa-calendar" aria-hidden="true"></i> Request Appointment</button>
 										</div>
 									</div>
 									<div class="row">
@@ -738,7 +738,42 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
+	<!-- Modals -->
+		<div id="contact-modal" class="modal fade" role="dialog">
+		  <div class="paddingbottom-1 center modal-dialog background-white border-radius-8 padding-30">
 
+		    <!-- Modal content-->
+			<form id="mail-form" action="//web-api.tysonsteele.com/v1/webprops/KEY/notify">
+	          <h5 class="font-26">YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
+	          <div class="row appointment_input_row form-group">
+	            <div class="col-xs-4">
+	              <label for="name">My name:</label>
+	            </div>
+	            <div class="col-xs-8">
+	              <input type="text" required name="name" id="name" class="form-control appointment_form"/>
+	            </div>
+	          </div>
+	          <div class="row appointment_input_row form-group">
+	            <div class="col-xs-4">
+	              <label for="name">Email:</label>
+	            </div>
+	            <div class="col-xs-8">
+	              <input type="email" required name="email" id="email" class="form-control appointment_form"/>
+	            </div>
+	          </div>
+	          <div class="row appointment_input_row form-group">
+	            <div class="col-xs-4">
+	              <label for="name">Phone #:</label>
+	            </div>
+	            <div class="col-xs-8">
+	              <input type="text" required name="phone" id="phone" class="form-control appointment_form"/>
+	            </div>
+	          </div>
+	          <button type="submit" class="btn btn-danger btn-block btn-lg">Request Appointment</button>
+	        </form>
+
+		  </div>
+		</div>
 
 </body>
 </html>

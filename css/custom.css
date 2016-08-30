@@ -385,6 +385,19 @@ h3.text-shadow {
 .text-black {
     color:#353C3F;
 }
+.form-error {
+  color: #D56724;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 30px;
+  display: none;
+}
+.padding-30 {
+    padding:30px;
+}
+
+.paddingbottom-1 {
+    padding-bottom:1px;
+}
 
 .background-white {
     background:#FFF;
