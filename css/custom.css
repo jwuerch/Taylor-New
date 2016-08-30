@@ -49,6 +49,16 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 h4.text-shadow {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.91);
 }
+#below-nav-bar {
+    height:25px;
+    background: #A7BB03;
+    position:relative;
+    z-index:1;
+}
+
+.box-shadow {
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
+}
 
 .text-white, .slider-caption:not(.dark) h2 {
     color:#FFF;
