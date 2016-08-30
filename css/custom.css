@@ -158,6 +158,9 @@ body.stretched #header.full-header .container {
     padding:10px;
 }
 
+hr {
+    border-top:1px solid #7C7C7C;
+}
 @media (max-width:991px) {
 
     body.stretched #header.full-header .container {
@@ -169,6 +172,5 @@ body.stretched #header.full-header .container {
 #section-meet-the-team > div > div.row.section-three-row-one > div.col-md-4 {
         text-align:center;
     }
-
 
 }
