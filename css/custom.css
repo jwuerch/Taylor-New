@@ -470,12 +470,24 @@ hr {
     width:14px;
 }
 
-@media (min-width:992px) {
-    #shadow-mobile {
-        box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
-    }
+
+#shadow-mobile {
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
 }
-@media (max-width:991px) {
+
+#primary-menu > ul > li > a {
+    font-size:20px;
+}
+
+/** MEDIA QUERIES **/
+@media (max-width:1100px) {
+    .shadow-mobile {
+        box-shadow:none;
+    }
+    #primary-menu > ul > li > a {
+
+        font-size:18px;
+    }
     body.stretched #header.full-header .container {
         border-bottom:0px;
     }
