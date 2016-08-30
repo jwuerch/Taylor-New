@@ -121,7 +121,21 @@ p.font-18 {
     background
 }
 #section-visit {
-    height:780px;
+    height:450px;
+    background-position:center center;
+    background-size:cover;
+    background-position-y:60px;
+}
+#section-visit > .container {
+    height:100%;
+}
+.height-visit {
+    height:450px;
+}
+.vertical-align {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
 }
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
   position: absolute;
