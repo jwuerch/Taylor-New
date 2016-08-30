@@ -96,6 +96,9 @@ p.font-18 {
 h5.border-bottom {
 	border-bottom:1px solid #7C7C7C;
 }
+.font-grey {
+    color:#7C7C7C;
+}
 #section-no-insurance {
 	background:#EFF9A5;
 }
