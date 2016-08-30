@@ -181,6 +181,12 @@ max-height: 0px;
 h5.border-bottom {
 	border-bottom:1px solid #7C7C7C;
 }
+#section-map-overlay {
+    background-size:cover;
+    background-position:center center;
+    padding:100px 0px;
+    background-repeat:no-repeat;
+}
 .font-grey {
     color:#7C7C7C;
 }
