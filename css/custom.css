@@ -125,6 +125,7 @@ p.font-18 {
     background-position:center center;
     background-size:cover;
     background-position-y:60px;
+    border-bottom:5px solid #00B5FF;
 }
 #section-visit > .container {
     height:100%;
