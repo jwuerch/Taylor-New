@@ -66,6 +66,10 @@ p {
     font-family: "Gentium Book Basic", "Open Sans";
     line-height:1.5;
 }
+.gentium {
+    font-family: "Gentium Book Basic", "Open Sans";
+
+}
 
 .text-light-black {
     color:#727779;
@@ -74,6 +78,9 @@ p {
     padding-left:20px;
     padding-right:20px;
     margin-bottom:30px;
+}
+.paddingbottom-60 {
+    padding-bottom:60px;
 }
 .inner-special-2 {
     padding:20px;
@@ -135,6 +142,22 @@ p {
 .paddingtop-30 {
     padding-top:30px;
 }
+.font-18 {
+    font-size:18px;
+}
+.margintop-30 {
+    margin-top:30px;
+}
+.paddingtop-60 {
+    padding-top:60px;
+}
+a.text-white {
+    color:#FFF !important;
+}
+a.underline-hover:hover {
+    text-decoration:underline !important;
+    color:#FFF;
+}
 .paddingbottom-30 {
     padding-bottom:30px;
 }
@@ -144,6 +167,9 @@ h1.gentium, h2.gentium, h3.gentium, h4.gentium, h5.gentium, h6.gentium {
 }
 h4.text-shadow {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.91);
+}
+h3.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
 }
 #below-nav-bar {
     height:25px;
