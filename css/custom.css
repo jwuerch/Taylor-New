@@ -359,7 +359,7 @@ h3.text-shadow {
     border-left:1px solid #353C3F;
 }
 #footer {
-    border-top:5px solid #00B5FF;
+    border-top:none;
 }
 .padding-left-45 {
     padding-left:45px;
