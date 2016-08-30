@@ -3,6 +3,9 @@ body {
     color:#FFF;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -82,6 +85,11 @@ p.font-18 {
     color:#7C7C7C;
 
 }
+.col-md-3.no-insurance {
+    background:#D1E43B;
+    padding:15px;
+    border-radius:0px 8px 8px 0px;
+}
 .paddingbottom-15 {
 	padding-bottom:15px;
 }
@@ -94,6 +102,8 @@ h5.border-bottom {
 .col-md-9.no-insurance {
 	background:#FFF;
 	padding:15px;
+    border-radius:8px 0px 0px 8px;
+
 }
 .inner-special {
     padding-left:20px;
