@@ -77,6 +77,24 @@ p {
 .text-light-black {
     color:#727779;
 }
+p.font-18 {
+	font-size:18px;
+    color:#7C7C7C;
+
+}
+.paddingbottom-15 {
+	padding-bottom:15px;
+}
+h5.border-bottom {
+	border-bottom:1px solid #7C7C7C;
+}
+#section-no-insurance {
+	background:#EFF9A5;
+}
+.col-md-9.no-insurance {
+	background:#FFF;
+	padding:15px;
+}
 .inner-special {
     padding-left:20px;
     padding-right:20px;
