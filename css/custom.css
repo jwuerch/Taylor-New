@@ -391,6 +391,12 @@ h3.text-shadow {
   padding: 0 0 0 30px;
   display: none;
 }
+.parallax-fixed {
+    position:fixed;
+    top:520px;
+    left:50%;
+    transform:translateX(-50%);
+}
 .padding-30 {
     padding:30px;
 }
