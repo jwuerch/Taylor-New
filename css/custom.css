@@ -421,6 +421,20 @@ hr {
     font-family: 'Roboto Condensed', sans-serif;
     line-height:1.5;
 }
+
+#oc-slider > div.owl-dots > div > span {
+    opacity:1;
+    height:14px;
+    width:14px;
+    border:1px solid #00B5FF;
+    background:transparent;
+}
+#oc-slider > div.owl-dots > div.owl-dot.active > span {
+
+    background-color:#00B5FF;
+    height:14px;
+    width:14px;
+}
 @media (max-width:991px) {
 
     body.stretched #header.full-header .container {
