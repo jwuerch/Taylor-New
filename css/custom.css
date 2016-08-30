@@ -114,6 +114,9 @@ p.font-18 {
   color: #00B5FF;
   font-size:21px;
 }
+.font-21 {
+    font-size:21px;
+}
 .accordian-p {
     color:#333333;
     font-size:14px;
@@ -354,6 +357,18 @@ h3.text-shadow {
 }
 .border-left-black {
     border-left:1px solid #353C3F;
+}
+.padding-left-45 {
+    padding-left:45px;
+}
+.padding-right-45 {
+    padding-right:45px;
+}
+.width-100 {
+    width:100%;
+}
+.marginbottom-15 {
+    margin-bottom:15px;
 }
 .text-black {
     color:#353C3F;
