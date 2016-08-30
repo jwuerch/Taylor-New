@@ -11,9 +11,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:400;
 }
+#section-patient-reviews {
+    background-size:cover;
+}
 #copyrights {
     background:#D2DF08;
-    
+
 }
 h1 {
     font-size:80px;
