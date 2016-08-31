@@ -37,6 +37,7 @@
      };
      var HWD = new HelloWorldDevs();
      HWD.mailForm('#mail-form', '#success_msg', '7fb35345-752d-4792-9480-cd3db6674a62');
+
      var specialsTemplate = (function($, _){
 
       var base_url = 'http://web-api.tysonsteele.com/v1/webprops/';
@@ -74,5 +75,4 @@
       };
   });
 
-
-})(jQuery);
+})(jQuery, _);

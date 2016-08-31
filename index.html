@@ -27,7 +27,6 @@
 
 </head>
 <body class="stretched">
-
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
@@ -68,11 +67,11 @@
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center text-white">
 									<div>
-										<i class="icon-star icon-6" aria-hidden="true"></i>
-										<i class="icon-rating" aria-hidden="true"></i>
-										<i class="fa fa-star fa-star--custom" aria-hidden="true"></i>
-										<i class="fa fa-star fa-star--custom" aria-hidden="true"></i>
-										<i class="fa fa-star fa-star--custom" aria-hidden="true"></i>
+										<span id="star">&#9733;</span>
+										<span id="star">&#9733;</span>
+										<span id="star">&#9733;</span>
+										<span id="star">&#9733;</span>
+										<span id="star">&#9733;</span>
 									</div>
 									<h4 class="gentium t400 text-white">
 										“Cathy Taylor is delightful, lovely, and is an incredible dentist!
@@ -651,6 +650,24 @@
 
 	<!-- External JavaScripts
 	============================================= -->
+	<script type="text/template" id="special_template">
+            <h1 class="specials-token"><span class="small-token nocolor">$</span><%=fee%></h1>
+            <h3 class="undercircle"><%=title%></h3>
+            <h3><%=subtitle%></h3>
+            <h5>Save $<%=savings%></h5>
+            <p class="description"><%=description%></p>
+            <p class="footnote">(<%=codes%>)</p>
+    </script>
+	<script type="text/javascript">
+	    specialsTemplate.init(
+	        '7fb35345-752d-4792-9480-cd3db6674a62',
+	        '#special_template',
+	        {
+	            period_ends: '#period_ends',
+	            period_label: '#period_label'
+	        }
+	    );
+	</script>
 	<script type="text/template" id="success_msg">
 	  <p>Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will
 	  contact you in the next 2 business days to schedule your appointment and to answer any questions you may still have.
