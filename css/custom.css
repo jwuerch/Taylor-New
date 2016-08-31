@@ -545,6 +545,9 @@ hr {
 .portfolio-desc {
     padding:0px;
 }
+.portfolio-image:hover {
+    cursor:pointer;
+}
 
 @media (max-width:1490px) {
     .parallax-fixed {
