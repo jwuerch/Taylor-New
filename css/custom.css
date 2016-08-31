@@ -343,6 +343,13 @@ h3.text-shadow {
 .text-light-blue {
     color:#00B5FF;
 }
+.owl-carousel:hover .owl-nav [class*=owl-] {
+    background:#00B5FF;
+    color:#FFF;
+}
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color:#00B5FF !important;
+}
 #section-summer-specials {
     background:#00B5FF;
 }
