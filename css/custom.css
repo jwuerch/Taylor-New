@@ -509,6 +509,10 @@ hr {
     top:50%;
     transform:translateY(-33%);
 }
+.mobile-background {
+    background-image:url("images/mobile-slide.jpg");
+    display:none;
+}
 @media (max-width:1300px) {
     .team-member {
         font-size:20px;
@@ -543,5 +547,13 @@ hr {
         position:relative;
         top:0px;
         transform:translateY(0%);
+    }
+}
+@media (max-width:768px) {
+    .mobile-background {
+        display:block;
+    }
+    #slider {
+        display:none;
     }
 }
