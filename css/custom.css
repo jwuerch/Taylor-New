@@ -605,6 +605,11 @@ hr {
         display:none;
     }
 }
+@media (max-width:767px) {
+    .mobile-center {
+        text-align:center !important;
+    }
+}
 
 @media (max-width:350px) {
     #section-summer-specials > div.container-fluid > div {
