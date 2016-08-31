@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size:cover;
 }
 #copyrights {
-    background:#D2DF08;
+    background:#A7BB03;
 
 }
 h1 {
@@ -466,7 +466,7 @@ h3.text-shadow {
 
 /** MOBILE MENU WHEN RESPONSIVE **/
 
-.fa-bars {
+.icon-align-justify2 {
     color:#000;
     font-size:35px;
 }
