@@ -37,15 +37,14 @@
      };
      var HWD = new HelloWorldDevs();
      HWD.mailForm('#mail-form', '#success_msg', '7fb35345-752d-4792-9480-cd3db6674a62');
-     console.log(specialsTemplate);
-     specialsTemplate.init(
-         '7fb35345-752d-4792-9480-cd3db6674a62',
-         '#special_template',
-         {
-             period_ends: '#period_ends',
-             period_label: '#period_label'
-         }
-     );
+    //  specialsTemplate.init(
+    //      '7fb35345-752d-4792-9480-cd3db6674a62',
+    //      '#special_template',
+    //      {
+    //          period_ends: '#period_ends',
+    //          period_label: '#period_label'
+    //      }
+    //  );
 
 
 })(jQuery, _);
