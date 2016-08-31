@@ -605,3 +605,17 @@ hr {
         display:none;
     }
 }
+
+@media (max-width:350px) {
+    #section-summer-specials > div.container-fluid > div {
+        padding:0px;
+    }
+    #section-outstanding-care > div > div.center.bottommargin > h3 {
+        font-size:45px;
+    }
+    .btn {
+        font-size:16px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
