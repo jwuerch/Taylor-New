@@ -474,6 +474,9 @@ h3.text-shadow {
 .paddingleft-50 {
     padding-left:50px;
 }
+.owl-next, .owl-prev {
+    top:40% !important;
+}
 
 body.stretched #header.full-header .container {
     min-height:80px;
@@ -651,9 +654,12 @@ hr {
 
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
     #section-summer-specials > div.container-fluid > div {
         padding:0px;
+    }
+    .mobile-font-30 {
+        font-size:30px;
     }
     .row-specials {
         padding-left:0px;
