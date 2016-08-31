@@ -680,3 +680,12 @@ hr {
         max-width:75%;
     }
 }
+
+@media (max-width:450px) {
+    h3 {
+        font-size:40px;
+    }
+    .mobile-margin-top {
+        margin-top:15px;
+    }
+}
