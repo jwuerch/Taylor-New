@@ -545,11 +545,10 @@ hr {
     display:none;
 }
 .button:hover {
-    opacity:.9;
-    background:#FF7A00;
+    background:#be5e00;
 }
 .button.background-green:hover {
-    background:#DBEC5C;
+    background:#006400;
     opacity:.9;
     color:#000;
 
