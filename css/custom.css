@@ -133,7 +133,6 @@ p.font-18 {
     background
 }
 #section-visit {
-    height:450px;
     background-position:center center;
     background-size:cover;
     background-position-y:60px;
@@ -142,9 +141,7 @@ p.font-18 {
 #section-visit > .container {
     height:100%;
 }
-.height-visit {
-    height:450px;
-}
+
 .vertical-align {
     position:relative;
     top:50%;
@@ -275,14 +272,15 @@ h5.border-bottom {
 .paddingtop-30 {
     padding-top:30px;
 }
-.font-18 {
-    font-size:18px;
-}
+
 .margintop-30 {
     margin-top:30px;
 }
 .paddingtop-60 {
     padding-top:60px;
+}
+.font-18 {
+    font-size:18px !important;
 }
 a.text-white {
     color:#FFF !important;
@@ -434,7 +432,7 @@ h3.text-shadow {
 #primary-menu ul li:hover > a {
     text-decoration:underline;
 }
-#primary-menu > ul > li.current:hover > a {
+#primary-menu > ul > li:nth-child(1) > a {
     color:#FF7A00;
 }
 #primary-menu > ul > li:nth-child(2) > a {
@@ -442,6 +440,9 @@ h3.text-shadow {
 }
 #primary-menu > ul > li:nth-child(3) > a {
     color:#A7BB03;
+}
+.bf-spn {
+    font-size:18px;
 }
 .font-24 {
     font-size:24px;
@@ -541,10 +542,15 @@ hr {
     opacity:.9;
     background:#FF7A00;
 }
-button:hover .background-green {
+.button.background-green:hover {
     background:#DBEC5C;
     opacity:.9;
+    color:#000;
 
+}
+
+.row.no-insurance {
+    display:flex;
 }
 
 
@@ -597,6 +603,9 @@ button:hover .background-green {
     }
 }
 @media (max-width:991px) {
+    .row.no-insurance {
+        display:inherit;
+    }
     .no-shadow-mobile {
         box-shadow:none;
     }
@@ -634,6 +643,7 @@ button:hover .background-green {
     .mobile-center {
         text-align:center !important;
     }
+
 }
 
 @media (max-width:450px) {
