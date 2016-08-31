@@ -650,37 +650,23 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script type="text/template" id="special_template">
-            <h1 class="specials-token"><span class="small-token nocolor">$</span><%=fee%></h1>
-            <h3 class="undercircle"><%=title%></h3>
-            <h3><%=subtitle%></h3>
-            <h5>Save $<%=savings%></h5>
-            <p class="description"><%=description%></p>
-            <p class="footnote">(<%=codes%>)</p>
-    </script>
-	<script type="text/javascript">
-	    specialsTemplate.init(
-	        '7fb35345-752d-4792-9480-cd3db6674a62',
-	        '#special_template',
-	        {
-	            period_ends: '#period_ends',
-	            period_label: '#period_label'
-	        }
-	    );
-	</script>
 	<script type="text/template" id="success_msg">
 	  <p>Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will
 	  contact you in the next 2 business days to schedule your appointment and to answer any questions you may still have.
 	  Thank you!</p>
 	</script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="http://birdeye.com/embed/v4/147025711192168/3/1693194550"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
+	<script type="text/javascript" src="js/specials.js"></script>
 	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
 	<!-- Modals -->
 
 	<section class="team-modals">
