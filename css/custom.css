@@ -176,6 +176,9 @@ max-height: 0px;
   border: none;
   font-size: 95%;
 }
+.btn {
+    border-radius:8px;
+}
 
 .ui-helper-reset {
   margin: 0;
