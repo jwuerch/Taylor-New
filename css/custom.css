@@ -379,9 +379,12 @@ h3.text-shadow {
 .slider-caption.slider-caption-center {
     max-width:100%;
 }
-.rating, .icon-rating {
+.icon-star {
     color:#FFD700;
     font-size:28px;
+}
+.icon-star {
+    content:"\f005";
 }
 .border-left-white {
     border-left:1px solid #FFF;
