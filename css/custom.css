@@ -337,6 +337,21 @@ h3.text-shadow {
 .text-green {
     color:#EFF9A5;
 }
+
+.owl-item:after {
+
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+
+}
+.owl-item:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
 .text-orange {
     color:#FF7A00;
 }
