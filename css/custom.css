@@ -411,12 +411,7 @@ h3.text-shadow {
   padding: 0 0 0 30px;
   display: none;
 }
-.parallax-fixed {
-    position:fixed;
-    top:75%;
-    left:50%;
-    transform:translateX(-50%);
-}
+
 .padding-30 {
     padding:30px;
 }
@@ -574,16 +569,6 @@ button:hover .background-green {
     opacity:1;
 }
 
-@media (max-width:1490px) {
-    .parallax-fixed {
-        top:70%;
-    }
-}
-@media (max-width:1240px) {
-    .parallax-fixed {
-        top:55%;
-    }
-}
 @media (max-width:1300px) {
 
 }
@@ -594,9 +579,7 @@ button:hover .background-green {
         padding-left:0px;
         padding-right:0px;
     }
-    .parallax-fixed {
-        top:45%;
-    }
+
     #primary-menu > ul > li > a {
         font-size:18px;
     }
@@ -634,9 +617,7 @@ button:hover .background-green {
         top:0px;
         transform:translateY(0%);
     }
-    .parallax-fixed {
-        position:relative;
-    }
+
     .col-padding {
         display:inherit;
     }
