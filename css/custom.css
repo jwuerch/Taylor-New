@@ -474,7 +474,7 @@ h3.text-shadow {
 .paddingleft-50 {
     padding-left:50px;
 }
-.owl-next, .owl-prev {
+#oc-portfolio .owl-next, #oc-portfolio .owl-prev {
     top:40% !important;
 }
 
