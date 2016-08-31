@@ -578,6 +578,9 @@ hr {
     padding-left:100px;
     padding-right:100px;
 }
+#section-visit {
+    background-position-y:75px;
+}
 
 .owl-carousel .owl-nav [class*=owl-] {
     opacity:1;
@@ -672,5 +675,8 @@ hr {
         font-size:16px;
         padding-left:10px;
         padding-right:10px;
+    }
+    div.modal-body.team__modal-pic > img {
+        max-width:75%;
     }
 }
