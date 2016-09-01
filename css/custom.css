@@ -379,6 +379,9 @@ h3.text-shadow {
 .slider-caption.slider-caption-center {
     max-width:100%;
 }
+.display-none {
+    display:none;
+}
 
 .star {
    font-size: 30px;
