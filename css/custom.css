@@ -531,6 +531,7 @@ hr {
 
 #primary-menu > ul > li > a {
     font-size:20px;
+    color:#727779;
 }
 .fb-wrap {
     position:absolute;
@@ -588,6 +589,7 @@ hr {
 .owl-carousel .owl-nav [class*=owl-] {
     opacity:1;
 }
+
 
 @media (max-width:1300px) {
 
