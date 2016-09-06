@@ -605,8 +605,6 @@ hr {
 
 
 
-
-
 @media (max-width:1300px) {
     #primary-menu > ul > li > a {
         font-size:16px;
@@ -697,7 +695,6 @@ hr {
 }
 
 @media (max-width:892px) {
-    #logo
 
 }
 
@@ -707,6 +704,10 @@ hr {
     }
     #slider {
         display:none;
+    }
+    body:not(.top-search-open) #header-wrap #logo {
+        align-self:auto !important;
+        margin-top:2% !important;
     }
 
 }
@@ -747,7 +748,9 @@ hr {
         width:70%;
         height:70%;
     }
-}
+    body:not(.top-search-open) #header-wrap #logo {
+        margin-top:8% !important;
+    }
 
 @media (max-width:450px) {
     h3 {
