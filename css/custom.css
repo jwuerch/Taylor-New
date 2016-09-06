@@ -598,10 +598,11 @@ hr {
 }
 
 #logo {
-    width:26%;
-    height:26%;
     align-self:center;
+    width:25%;
+    height:25%;
 }
+
 
 
 
@@ -609,6 +610,10 @@ hr {
 @media (max-width:1300px) {
     #primary-menu > ul > li > a {
         font-size:16px;
+    }
+    #primary-menu > ul > li > a {
+        padding-left:8px !important;
+        padding-right:8px !important;
     }
 }
 
@@ -618,16 +623,13 @@ hr {
         padding-left:0px;
         padding-right:0px;
     }
-    #primary-menu > ul > li > a {
-        padding-left:10px !important;
-        padding-right:10px !important;
-    }
+
     #header-wrap > .no-shadow-mobile {
         padding-left:15px !important;
         padding-right:15px !important;
     }
     #primary-menu > ul > li > a {
-        font-size:16px;
+        font-size:17px;
     }
     body.stretched #header.full-header .container {
         border-bottom:0px;
@@ -642,13 +644,24 @@ hr {
         box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
     }
     #logo {
-        width:22%;
-        height:22%;
+        width:25%;
+        height:25%
     }
 }
 @media (max-width:991px) {
     .row.no-insurance {
         display:inherit;
+    }
+    #logo {
+        width:45%;
+        height:45%;
+    }
+    #primary-menu > ul > li > a {
+        font-size:17px;
+    }
+    body:not(.top-search-open) #primary-menu-trigger {
+        top:50%;
+        transform:translateY(-50%);
     }
 
     .no-shadow-mobile {
@@ -675,7 +688,15 @@ hr {
     .col-padding {
         display:inherit;
     }
+    #logo {
+        display:flex;
+        margin-right:0 !important;
+    }
+    #primary-menu {
+        margin-left:0;
+    }
 }
+
 @media (max-width:768px) {
     .mobile-background {
         display:block;
@@ -683,10 +704,15 @@ hr {
     #slider {
         display:none;
     }
+
 }
 @media (max-width:767px) {
     .mobile-center {
         text-align:center !important;
+    }
+    #logo {
+        width:70%;
+        height:70%;
     }
 
 }
@@ -712,6 +738,10 @@ hr {
     }
     div.modal-body.team__modal-pic > img {
         max-width:75%;
+    }
+    #logo {
+        width:85%;
+        height:85%;
     }
 }
 
