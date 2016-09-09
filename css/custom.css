@@ -166,6 +166,10 @@ p.font-18 {
     top:50%;
     transform:translateY(-50%);
 }
+
+.fb-wrap img {
+    height:48px;
+}
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
   position: absolute;
   left: .5em;
