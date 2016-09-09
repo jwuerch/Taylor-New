@@ -334,7 +334,7 @@
 	.top-advert,
 	.header-extras { display: none; }
 
-	#logo {
+	.logo {
 		display: block;
 		height: 100px;
 		float: none;
@@ -345,7 +345,7 @@
 		padding: 0 !important;
 	}
 
-	#logo a.standard-logo { display: inline-block; }
+	.logo a.standard-logo { display: inline-block; }
 
 	#primary-menu {
 		display: block;
@@ -735,8 +735,8 @@
 
 	.sticky-responsive-menu.device-touch #header,
 	.sticky-responsive-menu.device-touch #header-wrap,
-	.sticky-responsive-menu.device-touch #logo,
-	.sticky-responsive-menu.device-touch #logo img,
+	.sticky-responsive-menu.device-touch .logo,
+	.sticky-responsive-menu.device-touch .logo img,
 	.sticky-responsive-menu.device-touch #top-search a,
 	.sticky-responsive-menu.device-touch #primary-menu-trigger,
 	.sticky-responsive-menu.device-touch #top-cart,
@@ -760,8 +760,8 @@
 		-webkit-backface-visibility: hidden;
 	}
 
-	.responsive-sticky-header:not(.static-sticky) #logo,
-	.responsive-sticky-header:not(.static-sticky) #logo img { height: 60px; }
+	.responsive-sticky-header:not(.static-sticky) .logo,
+	.responsive-sticky-header:not(.static-sticky) .logo img { height: 60px; }
 
 	.responsive-sticky-header:not(.static-sticky) #primary-menu-trigger { top: 5px; }
 
@@ -1789,12 +1789,12 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
-	#logo a.standard-logo,
-	#header.split-menu #logo a.standard-logo { display: none; }
+	.logo a.standard-logo,
+	#header.split-menu .logo a.standard-logo { display: none; }
 
-	#logo a.retina-logo { display: block; }
+	.logo a.retina-logo { display: block; }
 
-	#header.split-menu #logo a.retina-logo { display: inline-block; }
+	#header.split-menu .logo a.retina-logo { display: inline-block; }
 
 	.owl-carousel.owl-loading,
 	.preloader,
@@ -1848,6 +1848,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
 only screen and (        min-device-pixel-ratio: 2) and (max-width: 991px),
 only screen and (                min-resolution: 192dpi) and (max-width: 991px),
 only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
-	#logo a.standard-logo { display: none; }
-	#logo a.retina-logo { display: inline-block; }
+	.logo a.standard-logo { display: none; }
+	.logo a.retina-logo { display: inline-block; }
 }

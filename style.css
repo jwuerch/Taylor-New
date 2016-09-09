@@ -147,6 +147,7 @@ a {
 	text-decoration: none;
 }
 
+
 a:hover {}
 
 a img { border: none; }
@@ -999,7 +1000,7 @@ body.stretched #header.full-header .container {
 -----------------------------------------------------------------*/
 
 
-#logo {
+.logo {
 	position: relative;
 	float: left;
 	font-family: 'Raleway', sans-serif;
@@ -1007,24 +1008,24 @@ body.stretched #header.full-header .container {
 	line-height: 100%;
 }
 
-#header.full-header #logo {
+#header.full-header .logo {
 }
 
-#header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
+#header.transparent-header.full-header .logo { border-right-color: rgba(0,0,0,0.1); }
 
-#logo a {
+.logo a {
 	display: block;
 	color: #000;
 }
 
-#logo img {
+.logo img {
 	display: block;
 	max-width: 100%;
 }
 
-#logo a.standard-logo { display: block; }
+.logo a.standard-logo { display: block; }
 
-#logo a.retina-logo { display: none; }
+.logo a.retina-logo { display: none; }
 
 
 /* ----------------------------------------------------------------
@@ -1340,7 +1341,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 	padding-bottom: 19px;
 }
 
-#logo + #primary-menu.style-2 { border-top: 0; }
+.logo + #primary-menu.style-2 { border-top: 0; }
 
 #primary-menu.style-2 > div #top-search,
 #primary-menu.style-2 > div #top-cart,
@@ -1527,7 +1528,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 
 @media (min-width: 992px) {
 
-	#header.split-menu #logo {
+	#header.split-menu .logo {
 		position: absolute;
 		width: 100%;
 		text-align: center;
@@ -1536,7 +1537,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 		height: 100px;
 	}
 
-	#header.split-menu #logo a.standard-logo { display: inline-block; }
+	#header.split-menu .logo a.standard-logo { display: inline-block; }
 
 }
 
@@ -1969,7 +1970,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 
 #header,
 #header-wrap,
-#logo img {
+.logo img {
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
@@ -1998,7 +1999,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 	transition: margin .4s ease, opacity .3s ease;
 }
 
-body:not(.top-search-open) #header-wrap #logo,
+body:not(.top-search-open) #header-wrap .logo,
 body:not(.top-search-open) #primary-menu > ul,
 body:not(.top-search-open) #primary-menu > .container > ul,
 body:not(.top-search-open) #top-cart,
@@ -2010,7 +2011,7 @@ body:not(.top-search-open) #top-account {
 	transition: height .4s ease, margin .4s ease, opacity .2s .2s ease;
 }
 
-body.top-search-open #header-wrap #logo,
+body.top-search-open #header-wrap .logo,
 body.top-search-open #primary-menu > ul,
 body.top-search-open #primary-menu > .container > ul,
 body.top-search-open #top-cart,
@@ -2038,9 +2039,9 @@ body.top-search-open #top-account { opacity: 0; }
 
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
-#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {  }
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) .logo img {  }
 
-#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) .logo img {
 	height:50%;
 	width:50%;
 	top:9px !important;
@@ -2419,14 +2420,14 @@ body:not(.device-touch) #page-menu nav li a {
 	margin: 0 !important;
 }
 
-.side-header #logo {
+.side-header .logo {
 	float: none;
 	margin: 60px 0 40px;
 }
 
-.side-header #logo img { height: auto !important; }
+.side-header .logo img { height: auto !important; }
 
-.side-header #logo:not(.nobottomborder):after,
+.side-header .logo:not(.nobottomborder):after,
 .side-header #primary-menu:not(.nobottomborder):after {
 	display: block;
 	content: '';
@@ -2434,7 +2435,7 @@ body:not(.device-touch) #page-menu nav li a {
 	border-bottom: 1px solid #E5E5E5;
 }
 
-.side-header .center #logo:after { margin: 0 auto; }
+.side-header .center .logo:after { margin: 0 auto; }
 
 .side-header #primary-menu { margin-bottom: 30px; }
 
