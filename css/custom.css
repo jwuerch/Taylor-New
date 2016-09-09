@@ -292,6 +292,10 @@ a.underline-hover:hover {
     text-decoration:underline !important;
     color:#FFF;
 }
+a {
+color:inherit;
+
+}
 .paddingbottom-30 {
     padding-bottom:30px;
 }
