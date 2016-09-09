@@ -438,14 +438,16 @@ h3.text-shadow {
 .padding-30 {
     padding:30px;
 }
-.close {
-    border-bottom:0px;
-    color:#d9534f;
+
+#contact-modal button.close {
+    font-size:50px;
+    margin-top:-10px;
+    color:#000;
     opacity:1;
+    border-bottom:0px;
 }
-.modal-header .close {
-    padding-bottom:10px;
-}
+
+
 .paddingbottom-1 {
     padding-bottom:1px;
 }
@@ -628,9 +630,22 @@ hr {
     width:65%;
 }
 
+#contact-modal .modal-dialog {
+    background:#FFF;
+    border-radius:5px;
+}
 
 .display-991 {
 display:none;
+}
+
+/** Modal CSS **/
+
+h4.modal-title {
+    font-size:22px;
+}
+.modal h5 {
+    font-size:14px;
 }
 
 @media (max-width:1440px) {

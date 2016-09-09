@@ -810,44 +810,96 @@
 
 
 
-
-		<div id="contact-modal" class="modal fade" role="dialog">
-		  <div class="paddingbottom-1 center modal-dialog background-white border-radius-8 padding-30">
-			  <div class="modal-header close">
-				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			  </div>
-
-		    <!-- Modal content-->
-			<form id="mail-form" action="//web-api.tysonsteele.com/v1/webprops/KEY/notify">
-	          <h6 class="">YES! Please contact me to schedule an appointment or answer any questions I might still have:</h6>
-	          <div class="row appointment_input_row form-group">
-	            <div class="col-xs-4">
-	              <label for="name">My name:</label>
-	            </div>
-	            <div class="col-xs-8">
-	              <input type="text" required name="name" id="name" class="form-control appointment_form"/>
-	            </div>
-	          </div>
-	          <div class="row appointment_input_row form-group">
-	            <div class="col-xs-4">
-	              <label for="name">Email:</label>
-	            </div>
-	            <div class="col-xs-8">
-	              <input type="email" required name="email" id="email" class="form-control appointment_form"/>
-	            </div>
-	          </div>
-	          <div class="row appointment_input_row form-group">
-	            <div class="col-xs-4">
-	              <label for="name">Phone #:</label>
-	            </div>
-	            <div class="col-xs-8">
-	              <input type="text" required name="phone" id="phone" class="form-control appointment_form"/>
-	            </div>
-	          </div>
-	          <button type="submit" class="btn btn-danger btn-block btn-lg">Request Appointment</button>
-	        </form>
-
-		  </div>
+		<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<h4 class="modal-title">Request an Appointment</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-error"></div><form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
+					<h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
+					<div class="row appointment_input_row form-group">
+						<div class="col-xs-4">
+							<label for="name">Name:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="text" name="name" id="name" class="form-control appointment_form">
+						</div>
+					</div>
+					<div class="row appointment_input_row form-group honeypot_container sr-only">
+						<div class="col-xs-4">
+							<label for="email">Leave this field blank:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="email" name="email" id="email" class="form-control appointment_form">
+						</div>
+					</div>
+					<div class="row appointment_input_row form-group">
+						<div class="col-xs-4">
+							<label for="confirmed_email">Email:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="email" name="confirmed_email" id="confirmed_email" class="form-control appointment_form">
+						</div>
+					</div>
+					<div class="row appointment_input_row form-group">
+						<div class="col-xs-4">
+							<label for="phone">Phone:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="text" name="phone" id="phone" class="form-control appointment_form">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-green green roll-over move-up button text-white btn-block">Request Appointment</button>
+				</form>
+				</div>
+			</div>
+		</div>
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<h4 class="modal-title">Request an Appointment</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-error"></div><form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
+					<h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
+					<div class="row appointment_input_row form-group">
+						<div class="col-xs-4">
+							<label for="name">Name:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="text" name="name" id="name" class="form-control appointment_form">
+						</div>
+					</div>
+					<div class="row appointment_input_row form-group honeypot_container sr-only">
+						<div class="col-xs-4">
+							<label for="email">Leave this field blank:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="email" name="email" id="email" class="form-control appointment_form">
+						</div>
+					</div>
+					<div class="row appointment_input_row form-group">
+						<div class="col-xs-4">
+							<label for="confirmed_email">Email:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="email" name="confirmed_email" id="confirmed_email" class="form-control appointment_form">
+						</div>
+					</div>
+					<div class="row appointment_input_row form-group">
+						<div class="col-xs-4">
+							<label for="phone">Phone:</label>
+						</div>
+						<div class="col-xs-8">
+							<input type="text" name="phone" id="phone" class="form-control appointment_form">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-green green roll-over move-up btn-block">Request Appointment</button>
+				</form>
+				</div>
+			</div>
 		</div>
 
 		<!-- JS Templates
