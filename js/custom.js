@@ -46,5 +46,11 @@
     //      }
     //  );
 
+    $('#nav').affix({
+        offset: {
+            top: $('header').height()
+        }
+    });
+
 
 })(jQuery, _);
