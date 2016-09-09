@@ -518,6 +518,8 @@ button.close {
 body.stretched #header.full-header .container {
     min-height:80px;
     border-bottom:1px solid #EEE;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 
@@ -559,11 +561,43 @@ hr {
 }
 
 
+#header,
+#header-wrap,
+#logo,
+#primary-menu:not(.style-2),
+#primary-menu:not(.style-2) > ul,
+#primary-menu,
+#primary-menu ul,
+#primary-menu ul li a { height: 100px; }
+
+#primary-menu:not(.style-2) {
+    width:80%;
+}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    font-size:16px;
+}
+#primary-menu ul li i { line-height: 99px; }
+
+#primary-menu ul ul,
+#primary-menu ul li .mega-menu-content,
+#primary-menu ul li.mega-menu .mega-menu-content { top: 100px; }
+
+#primary-menu.sub-title ul li a { padding: 27px 20px 32px; }
+
+#top-search,
+#top-cart { margin: 40px 0 40px 15px; }
+
+@media (max-width: 991px) {
+    #primary-menu-trigger { top: 25px; }
+    #top-search a { margin-top: 40px; }
+    #top-search form { height: 100px !important; }
+}
+
 .no-shadow-mobile {
     box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
 }
 
-#primary-menu > ul > li > a {
+#primary-menu ul li > a {
     font-size:20px;
     color:#727779;
 }
@@ -636,23 +670,61 @@ hr {
 
 .logo {
     align-self:center;
-    width:33%
+}
+#header.full-header #logo {
+    border-right:none;
+    margin-right:20px;
 }
 .icon-reorder {
     color:#000;
     font-size:40px;
 }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    letter-spacing:0px;
+}
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) .logo img {
     width:65%;
+    padding-bottom:0px;
+    padding-top:0px;
 }
 
+.full-header img {
+    height:90px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.sticky-header img {
+    height:60px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.mobile-primary-menu {
+    padding-right:0;
+}
+.mobile-primary-menu li {
+    background:#FFF;
+}
+
+#primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li > a {
+    height:60px;
+    padding-left:25px !important;
+}
+#primary-menu:not(.style-2) {
+    margin:0 auto;
+}
 #contact-modal .modal-dialog {
     background:#FFF;
     border-radius:5px;
 }
-
+body.stretched #header.full-header .container {
+    border-bottom:none;
+}
 .display-991 {
 display:none;
+}
+
+#primary-menu ul li > a {
+    font-weight:400;
 }
 
 /** Modal CSS **/
@@ -664,18 +736,28 @@ h4.modal-title {
     font-size:14px;
 }
 
-@media (max-width:1440px) {
-    #primary-menu > ul > li > a {
-        font-size:18px;
+@media (max-width:1680px) {
+    #primary-menu ul li > a {
+        font-size:17px;
+        padding-left:10px;
+        padding-right:10px;
     }
 }
 
 
 @media (max-width:1330px) {
-    #primary-menu > ul > li > a {
+    #primary-menu ul li > a {
+        letter-spacing:.5px;
+        padding-left:7px;
+        padding-right:7px;
         font-size:16px;
-        padding-left:8px !important;
-        padding-right:8px !important;
+    }
+    .logo {
+        margin-right:10px;
+    }
+    #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+        font-size:15px;
+        letter-spacing:-.1px;
     }
 
 }
@@ -683,13 +765,19 @@ h4.modal-title {
     .specials h4 {
         font-size:28px;
     }
+    #primary-menu ul li > a {
+        letter-spacing:.2px;
+        padding-left:6px;
+        padding-right:6px;
+        font-size:15px;
+    }
 }
 
-@media (max-width:1105px) {
-    #primary-menu > ul > li > a {
-        font-size:15px;
-        padding-left:7px !important;
-        padding-right:7px !important;
+@media (max-width:1110px) {
+    #primary-menu ul li > a {
+        padding-left:6px;
+        padding-right:6px;
+        font-size:14px;
     }
     .col-padding {
         padding-left:50px;
@@ -723,25 +811,52 @@ h4.modal-title {
     }
 
 }
-@media (max-width:1040px) {
-    #primary-menu > ul > li > a {
-        font-size:15px;
+@media (max-width:1060px) {
+    #primary-menu ul li > a {
+        font-size:14px;
     }
-    .flex {
-        padding-left:15px !important;
-        padding-right:15px !important;
+    #header.full-header #logo {
+        width:32%;
+
+    }
+    .full-header img {
+        height:95px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    body.stretched #header.full-header .container {
+        padding-left:15px;
+        padding-right:0px;
+    }
+    .sticky-header img {
+        height:70px;
+        position:relative;
+        top:-5px;
     }
 
+}
+
+@media (max-width:1010px) {
+    font-size:14px;
 }
 @media (max-width:991px) {
     .row.no-insurance {
         display:inherit;
     }
+    .full-header img {
+        height:70px;
+        margin-top:20px;
+    }
+    #header.full-header #logo {
+        margin:0 auto;
+    }
+
+
     .col-padding {
         padding-left:100px;
         padding-right:100px;
     }
-    #primary-menu > ul > li > a {
+    #primary-menu ul li > a {
         font-size:18px;
     }
 
@@ -805,6 +920,10 @@ h4.modal-title {
     .logo {
         width:80%;
         padding-top:20px !important;
+    }
+    #header.full-header #logo {
+        text-align:center;
+        width:inherit;
     }
 
 
