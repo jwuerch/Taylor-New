@@ -624,7 +624,9 @@ hr {
     color:#000;
     font-size:40px;
 }
-
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) .logo img {
+    width:65%;
+}
 
 
 .display-991 {

@@ -2042,9 +2042,8 @@ body.top-search-open #top-account { opacity: 0; }
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) .logo img {  }
 
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) .logo img {
-	height:50%;
-	width:50%;
-	top:9px !important;
+	height:70%;
+	width:70%;
 	position:relative;
 }
 
