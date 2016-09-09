@@ -439,12 +439,16 @@ h3.text-shadow {
     padding:30px;
 }
 
-#contact-modal button.close {
+button.close {
     font-size:50px;
     margin-top:-10px;
     color:#000;
     opacity:1;
     border-bottom:0px;
+}
+
+.modal-header .close {
+    margin-top:-10px;
 }
 
 
