@@ -14,9 +14,21 @@ h1, h2, h3, h4, h5, h6 {
 #below-nav {
     background-size:cover;
 }
+
+.team__modal-pic > div {
+    width:40%;
+    margin-bottom:10px;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.team__modal-pic p {
+    line-height:28px;
+    margin-bottom:15px;
+}
 .notopmargin {
     margin-top:0px !important;
 }
+
 
 #section-patient-reviews {
     background-size:cover;
@@ -719,6 +731,10 @@ h4.modal-title {
     #primary-menu > ul > li > a {
         font-size:18px;
     }
+
+    .team__modal-pic img {
+        display:none;
+    }
     .flex {
         padding-left:30px !important;
         padding-right:30px !important;
@@ -819,9 +835,6 @@ h4.modal-title {
         padding-right: 10px;
     }
 
-    div.modal-body.team__modal-pic > img {
-        max-width: 75%;
-    }
 }
 @media (max-width:479px) {
     .logo {
