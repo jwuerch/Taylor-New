@@ -860,6 +860,9 @@ h4.modal-title {
     .row.no-insurance {
         display:inherit;
     }
+    #header.full-header #logo {
+        width:33%;
+    }
     .row-specials {
         display:inherit;
     }
