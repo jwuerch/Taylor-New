@@ -1025,6 +1025,17 @@ h4.modal-title {
     #section-patient-reviews {
         padding-top:15px !important;
     }
+    #section-visit {
+        background-size:contain;
+        padding:0 !important;
+        background-repeat:no-repeat;
+    }
+    #section-visit h4 {
+        font-size:24px;
+        padding-bottom:20px;
+        margin-top:40px;
+        padding-top:80px;
+    }
 }
 
 @media (max-width:450px) {

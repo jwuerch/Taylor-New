@@ -45,12 +45,26 @@
     //          period_label: '#period_label'
     //      }
     //  );
-
     $('#nav').affix({
         offset: {
             top: $('header').height()
         }
     });
+    $( window ).resize(function() {
+        console.log(window);
+        if ($(window).width() < 768) {
+            $('#section-visit').removeClass('parallax');
+            console.log("here");
+        }
+        else {
+            $('#section-visit').addClass('parallax');
+        }
+    });
+    if ($(window).width() < 768) {
+        $('#section-visit').removeClass('parallax');
+        console.log("here");
+    }
+
 
 
 })(jQuery, _);
