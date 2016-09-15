@@ -63,6 +63,7 @@
     if ($(window).width() < 768) {
         $('#section-visit').removeClass('parallax');
         console.log("here");
+        $("#section-office-tour .container").removeClass('container');
     }
 
 

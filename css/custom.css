@@ -171,12 +171,7 @@ p.font-18 {
     margin-bottom:10px;
     background
 }
-#section-visit {
-    background-position:center center;
-    background-size:cover;
-    background-position-y:60px;
-    border-bottom:5px solid #00B5FF;
-}
+
 #section-visit > .container {
     height:100%;
 }
@@ -449,6 +444,15 @@ h3.text-shadow {
 #footer {
     border-top:none;
 }
+#section-visit {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+#section-visit h4 {
+    padding-top:150px;
+    padding-bottom:130px;
+}
 .padding-left-45 {
     padding-left:45px;
 }
@@ -684,7 +688,7 @@ hr {
     padding-right:100px;
 }
 #section-visit {
-    background-position-y:75px;
+    background-position-y:50px;
 }
 
 .owl-carousel .owl-nav [class*=owl-] {
@@ -757,6 +761,7 @@ hr {
     background:#FFF;
     border-radius:5px;
 }
+
 body.stretched #header.full-header .container {
     border-bottom:none;
 }
@@ -887,6 +892,7 @@ h4.modal-title {
     .row.no-insurance {
         display:inherit;
     }
+
     #header.full-header #logo {
         width:33%;
     }
@@ -960,6 +966,13 @@ h4.modal-title {
     }
 }
 
+@media (max-width:960px) {
+    #section-visit {
+        background-position-y:0;
+        background-size:cover;
+    }
+}
+
 @media (max-width:768px) {
     .mobile-background {
         display:block;
@@ -986,12 +999,30 @@ h4.modal-title {
     .mobile-margin-top {
         margin-top:15px;
     }
+    #section-visit h4 {
+        font-size:30px;
+    }
+    #section-visit {
+    }
+    .owl-carousel:hover .owl-nav .owl-next {
+        right:30px;
+    }
+    .owl-carousel:hover .owl-nav .owl-prev {
+        left:30px;
+    }
 
 }
 
 @media (max-width:500px) {
     #section-summer-specials > div.container-fluid > div {
         padding: 0px;
+    }
+    #section-visit h4 {
+        padding-top:100px;
+        padding-bottom:80px;
+    }
+    #section-visit {
+        max-height:300px;
     }
 
     .mobile-font-30 {
@@ -1015,6 +1046,11 @@ h4.modal-title {
     #bfpublish {
         max-height:410px;
     }
+    #section-patient-reviews {
+        padding-top:15px !important;
+    }
+
+
 
 }
 @media (max-width:479px) {
@@ -1022,20 +1058,7 @@ h4.modal-title {
         padding-top:30px !important;
         margin-right:5px !important;
     }
-    #section-patient-reviews {
-        padding-top:15px !important;
-    }
-    #section-visit {
-        background-size:contain;
-        padding:0 !important;
-        background-repeat:no-repeat;
-    }
-    #section-visit h4 {
-        font-size:24px;
-        padding-bottom:20px;
-        margin-top:40px;
-        padding-top:80px;
-    }
+
 }
 
 @media (max-width:450px) {
