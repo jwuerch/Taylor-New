@@ -605,7 +605,7 @@ hr {
 #primary-menu ul li a { height: 100px; }
 
 #primary-menu:not(.style-2) {
-    width:80%;
+    width:100%;
 }
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
     font-size:16px;
