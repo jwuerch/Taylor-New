@@ -59,6 +59,14 @@
         else {
             $('#section-visit').addClass('parallax');
         }
+        $('#primary-menu a').click(function () {
+            console.log('test');
+            if ($('#primary-menu').find('ul.mobile-primary-menu').length > 0) {
+                $('#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu').toggleClass("show");
+            } else {
+                $('#primary-menu > ul, #primary-menu > div > ul').toggleClass("show");
+            }
+        });
     });
     if ($(window).width() < 768) {
         $('#section-visit').removeClass('parallax');
@@ -66,12 +74,13 @@
         $("#section-office-tour .container").removeClass('container');
     }
 
-    $('#primary-menu a').click(function() {
-        console.log('test');
-        if( $('#primary-menu').find('ul.mobile-primary-menu').length > 0 ) {
-            $( '#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu' ).toggleClass("show");
-        } else {
-            $( '#primary-menu > ul, #primary-menu > div > ul' ).toggleClass("show");
-        }
-    });
+    if ($(window).width() < 992) {
+        $('#primary-menu a').click(function () {
+            if ($('#primary-menu').find('ul.mobile-primary-menu').length > 0) {
+                $('#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu').toggleClass("show");
+            } else {
+                $('#primary-menu > ul, #primary-menu > div > ul').toggleClass("show");
+            }
+        });
+    }
 })(jQuery, _);

@@ -732,7 +732,6 @@ hr {
     padding-bottom:5px;
 }
 .sticky-header img {
-    height:60px;
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -771,7 +770,7 @@ hr {
     height:100px;
 }
 .sticky-header img {
-    height:90px;
+    height:85px;
 }
 
 body.stretched #header.full-header .container {
@@ -871,6 +870,7 @@ h4.modal-title {
         box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
     }
 
+
 }
 @media (max-width:1060px) {
     #primary-menu ul li > a {
@@ -881,7 +881,6 @@ h4.modal-title {
 
     }
     .full-header img {
-        height:95px;
         padding-top:10px;
         padding-bottom:10px;
     }
@@ -890,13 +889,16 @@ h4.modal-title {
         padding-right:0px;
     }
     .sticky-header img {
-        height:70px;
         position:relative;
-        top:-5px;
     }
     #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
         font-size:15px;
     }
+    .full-header img {
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+
 
 }
 
@@ -914,10 +916,14 @@ h4.modal-title {
     .full-header img {
         height:70px;
         margin-top:20px;
+        max-width:100%;
+        padding-top:0px;
+        padding-bottom:0px;
     }
     #header.full-header #logo {
         margin:0 auto;
     }
+
 
 
     .col-padding {
@@ -1060,6 +1066,9 @@ h4.modal-title {
     }
     #section-patient-reviews {
         padding-top:15px !important;
+    }
+    .full-header img {
+        max-width:75%;
     }
 
 
