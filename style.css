@@ -153,7 +153,19 @@ a img { border: none; }
 
 img { max-width: 100%; }
 
-iframe { border: none !important; }
+iframe { border: none !important;}
+
+@media (max-width:767px) {
+	iframe {
+		max-height:500px !important;
+	}
+}
+
+@media (max-width:500px) {
+	iframe {
+		max-height:400px !important;
+	}
+}
 
 
 /* ----------------------------------------------------------------
