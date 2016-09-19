@@ -157,13 +157,15 @@ iframe { border: none !important;}
 
 @media (max-width:767px) {
 	iframe {
-		max-height:500px !important;
+		max-height:640px !important;
+		overflow:hidden;
 	}
 }
 
 @media (max-width:500px) {
 	iframe {
 		max-height:400px !important;
+		overflow:hidden;
 	}
 }
 
